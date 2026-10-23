@@ -1,0 +1,8 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+^\.posit/
+^data-raw$
+^\.github$
+^LICENSE\.md$
+^AGENTS\.md$
+^leeme\.md$

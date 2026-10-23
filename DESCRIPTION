@@ -1,0 +1,30 @@
+Package: pjpv.curso.R.2026
+Title: Datos y funciones para el curso 2026
+Version: 0.5.0
+Authors@R:
+    person("Pedro J. Perez", email = "pedro.j.perez@uv.es", role = c("aut", "cre"))
+Description: Paquete de datos y funciones para el curso 2026. Contiene datos del INE,
+    World Bank, Fundación Nobel, Eurostat y otras fuentes, procesados para docencia
+    y análisis, y las funciones de pjpv.pkg.ff.2026.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+Imports:
+    cli,
+    dplyr,
+    ggplot2 (>= 3.5.0),
+    rlang,
+    stats,
+    tibble,
+    utils
+Suggests:
+    eurostat,
+    rstudioapi,
+    testthat (>= 3.0.0),
+    withr
+Config/testthat/edition: 3
+Config/roxygen2/version: 8.1.0
+Depends:
+    R (>= 4.1.0)
+LazyData: true
+LazyDataCompression: bzip2

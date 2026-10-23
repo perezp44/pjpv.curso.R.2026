@@ -1,0 +1,9 @@
+.Rproj.user
+.Rhistory
+.RData
+.Renviron
+data-raw/
+*.Rproj
+AGENTS.md
+leeme.md
+.posit/
