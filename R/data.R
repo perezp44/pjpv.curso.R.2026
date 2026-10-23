@@ -36,11 +36,13 @@
 #' }
 "ine_pob_mun_1996_2025"
 
-#' Esperanza de vida, PIB per cápita y población de los países (World Bank, 1960-2024)
+#' Esperanza de vida, PIB per cápita y población de los países (World Bank, 1960-2025)
 #'
 #' Tres indicadores de los World Development Indicators del World Bank,
 #' parecidos a los del paquete gapminder, para 217 países y los años
-#' 1960-2024 (una fila por país y año), con la región del World Bank.
+#' 1960-2025 (una fila por país y año), con la región del World Bank.
+#' En 2025 aún no hay esperanza de vida (NA en todos los países): el World
+#' Bank la publica con 1 o 2 años de retraso.
 #' Descargados con el paquete wbstats.
 #'
 #' @format Un tibble con las variables:
@@ -58,11 +60,11 @@
 #'
 #' @examples
 #' \dontrun{
-#' wb_paises_1960_2024 |>
+#' wb_paises_1960_2025 |>
 #'   dplyr::filter(year == 2024) |>
 #'   dplyr::slice_max(esperanza_vida, n = 10)
 #' }
-"wb_paises_1960_2024"
+"wb_paises_1960_2025"
 
 #' Premios Nobel (1901-2026)
 #'

@@ -1,6 +1,6 @@
 Package: pjpv.curso.R.2026
 Title: Datos y funciones para el curso 2026
-Version: 0.5.0
+Version: 0.5.1
 Authors@R:
     person("Pedro J. Perez", email = "pedro.j.perez@uv.es", role = c("aut", "cre"))
 Description: Paquete de datos y funciones para el curso 2026. Contiene datos del INE,

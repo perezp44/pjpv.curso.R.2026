@@ -1,3 +1,7 @@
+# pjpv.curso.R.2026 0.5.1
+
+* `wb_paises_1960_2024` pasa a ser `wb_paises_1960_2025`: llega hasta 2025, aunque de ese año aún no hay esperanza de vida.
+
 # pjpv.curso.R.2026 0.5.0
 
 * Funciones de `pjpv.pkg.ff.2026` (con sus tests): `pjp_dicc()`, `pjp_valores_unicos()`, `pjp_unique_values()`, `pjp_estadisticos_basicos()`, `pjp_round_nice()`, `pjp_not_in()` / `%not_in%`, `df_decimales()`, `theme_pjp_maps()`, `arreglar_prov_names()`, `check_duplicated_labels()`, `borrar_todo_excepto()`, `eurostat_download()`, `open_urls()`, `pjp_ruta_a_carpeta()`, `pjp_etiquetas_comunes()` y `pjp_ff_etiquetas()`.
